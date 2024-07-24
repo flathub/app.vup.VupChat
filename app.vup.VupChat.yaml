@@ -57,5 +57,5 @@ modules:
         dest: build
         only-arches:
           - x86_64
-        url: https://github.com/vup-app/vup-chat/releases/download/v0.5.8/vup-chat-linux.zip
-        sha256: 8581bbc9fc7dde7f44ee4926d9aedf10db007a96d8f230889070bbb02e60f1bf
+        url: https://github.com/vup-app/vup-chat/releases/download/v0.5.17/vup-chat-linux.zip
+        sha256: 146a1c8a2c161a8d81ac592c2528cc7347d9e9fa914721820ff3c0d5cde46dbc
