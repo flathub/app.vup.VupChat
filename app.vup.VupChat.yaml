@@ -51,8 +51,8 @@ modules:
         url: https://raw.githubusercontent.com/vup-app/vup-chat/v0.5.12/static/icon.png
         sha256: fb5808ab932ae801149f82eeeae0c46d6d9d24bfb7259f24aa5a010ed83d2395
       - type: file
-        url: https://raw.githubusercontent.com/vup-app/vup-chat/v0.5.12/linux/metadata/app.vup.VupChat.metainfo.xml
-        sha256: dbfd1a1eb4a6b736226ea19537684691a6a8d843ec1a8ccd92058021e9b9156d
+        url: https://raw.githubusercontent.com/vup-app/vup-chat/v0.5.18/linux/metadata/app.vup.VupChat.metainfo.xml
+        sha256: d99ca2b6bcc54c032ae9ae033bb8b8d57eeaab20109263344c4af7def083923b
       - type: file
         url: https://raw.githubusercontent.com/vup-app/vup-chat/v0.5.12/linux/metadata/app.vup.VupChat.desktop
         sha256: cdeabd8c448a487b0153b413caecac78917114f25f9d2d3a996b43007a854caf
