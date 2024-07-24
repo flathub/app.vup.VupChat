@@ -39,7 +39,7 @@ modules:
       - chmod +x /app/vup-chat/vup_chat
       - mkdir -p /app/bin
       - ln -s /app/vup-chat/vup_chat /app/bin/vup_chat
-      - install -Dm644 icon.svg /app/share/icons/hicolor/$size/apps/app.vup.VupChat.png
+      - install -Dm644 icon.png /app/share/icons/hicolor/$size/apps/app.vup.VupChat.png
       - install -Dm644 icon.svg /app/share/icons/hicolor/scalable/apps/app.vup.VupChat.svg
       - install -Dm644 app.vup.VupChat.desktop -t /app/share/applications/
       - install -Dm644 app.vup.VupChat.metainfo.xml -t /app/share/metainfo/
@@ -47,6 +47,9 @@ modules:
       - type: file
         url: https://raw.githubusercontent.com/vup-app/vup-chat/v0.5.12/static/icon.svg
         sha256: b80bbe5893595b1f47497de3400472492878550ac3abc504c40dd24468ae9c3d
+      - type: file
+        url: https://raw.githubusercontent.com/vup-app/vup-chat/v0.5.12/static/icon.png
+        sha256: fb5808ab932ae801149f82eeeae0c46d6d9d24bfb7259f24aa5a010ed83d2395
       - type: file
         url: https://raw.githubusercontent.com/vup-app/vup-chat/v0.5.12/linux/metadata/app.vup.VupChat.metainfo.xml
         sha256: dbfd1a1eb4a6b736226ea19537684691a6a8d843ec1a8ccd92058021e9b9156d
