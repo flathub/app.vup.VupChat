@@ -51,8 +51,8 @@ modules:
         url: https://raw.githubusercontent.com/vup-app/vup-chat/d657573b48d840690aadc41432eda6170118ab43/static/icon.svg
         sha256: 534eb69b9eff3ea6df313f95eaafd1ac79e72582ee8972d3da29ac91c7bd5836
       - type: file
-        url: https://raw.githubusercontent.com/vup-app/vup-chat/d657573b48d840690aadc41432eda6170118ab43/linux/metadata/app.vup.VupChat.metainfo.xml
-        sha256: 6d6d85c917d7ba6beae9412ef3404a11dc25605fb91f326cf478ae7b0b4a24e1
+        url: https://raw.githubusercontent.com/vup-app/vup-chat/v0.7.0/linux/metadata/app.vup.VupChat.metainfo.xml
+        sha256: f96d03f6f59ec798397d4bd825aafec15a4d3a0cfb223385bba7bc0e27f1ecc3
       - type: file
         url: https://raw.githubusercontent.com/vup-app/vup-chat/v0.5.12/linux/metadata/app.vup.VupChat.desktop
         sha256: cdeabd8c448a487b0153b413caecac78917114f25f9d2d3a996b43007a854caf
@@ -60,5 +60,5 @@ modules:
         dest: build
         only-arches:
           - x86_64
-        url: https://github.com/vup-app/vup-chat/releases/download/v0.5.17/vup-chat-linux.zip
-        sha256: 146a1c8a2c161a8d81ac592c2528cc7347d9e9fa914721820ff3c0d5cde46dbc
+        url: https://github.com/vup-app/vup-chat/releases/download/v0.7.0/vup-chat-linux.zip
+        sha256: 6eccd515d119de33facf16769324a0d13f0f0388ed80dd2b069d98e9025c6bc9
