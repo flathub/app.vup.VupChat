@@ -19,6 +19,7 @@ modules:
       - -Dman=false
       - -Dgtk_doc=false
       - -Ddocbook_docs=disabled
+      - -Dtests=false
     cleanup:
       - /include
       - /lib/pkgconfig
