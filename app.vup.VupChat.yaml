@@ -22,7 +22,6 @@ modules:
     cleanup:
       - /include
       - /lib/pkgconfig
-      - /lib/debug
       - /lib/girepository-1.0
       - /share/gtk-doc
       - /share/gir-1.0
